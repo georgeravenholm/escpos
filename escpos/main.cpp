@@ -15,6 +15,8 @@ int main()
 	//caner.Barcode("meme");
 	caner.BreakBlast(4);
 
+	// This is a teeest!
+
 	std::ofstream file("auto.pos");
 	file << caner.GetString();
 
