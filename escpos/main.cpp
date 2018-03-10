@@ -6,6 +6,7 @@
 #include <fstream>
 #include <iostream>
 #include "getopt.h"
+#include <string>
 
 int main(int argc , char** argv)
 {
@@ -71,7 +72,10 @@ int main(int argc , char** argv)
 	Printer caner;
 	caner.Align(justify);
 	caner.SetFont(flags);
-	caner.Append("Big Heading\n");
+
+	std::string line;
+	while (std::getline(std::cin,line))
+		caner.Append(line + LF); 
 	//caner.BreakBlast(4);
 
 	//std::ofstream file("auto.pos");
