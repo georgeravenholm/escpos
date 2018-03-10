@@ -1,3 +1,5 @@
+// Credit: https://gist.github.com/superwills/5815344
+
 #pragma once
 #include <string.h>
 #include <stdio.h>
