@@ -72,7 +72,7 @@ int main(int argc , char** argv)
 	caner.Align(justify);
 	caner.SetFont(flags);
 	caner.Append("Big Heading\n");
-	caner.BreakBlast(4);
+	//caner.BreakBlast(4);
 
 	//std::ofstream file("auto.pos");
 	std::cout << caner.GetString();
