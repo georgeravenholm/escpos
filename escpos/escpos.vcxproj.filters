@@ -27,6 +27,9 @@
     <ClInclude Include="..\..\..\%40projects\escpos\escpos\escpos.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\%40projects\escpos\escpos\getopt.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\%40projects\escpos\escpos\stdafx.cpp">

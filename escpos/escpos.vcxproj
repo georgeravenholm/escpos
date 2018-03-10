@@ -139,6 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\%40projects\escpos\escpos\escpos.h" />
+    <ClInclude Include="..\..\..\%40projects\escpos\escpos\getopt.h" />
     <ClInclude Include="..\..\..\%40projects\escpos\escpos\stdafx.h" />
     <ClInclude Include="..\..\..\%40projects\escpos\escpos\targetver.h" />
   </ItemGroup>
