@@ -16,6 +16,7 @@ int main()
 	caner.BreakBlast(4);
 
 	// This is a teeest!
+	// Antoher test
 
 	std::ofstream file("auto.pos");
 	file << caner.GetString();
