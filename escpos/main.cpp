@@ -2,6 +2,8 @@
 //
 
 #include "stdafx.h"
+
+
 #include "escpos.h"
 #include <fstream>
 #include <iostream>
